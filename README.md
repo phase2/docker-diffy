@@ -8,9 +8,9 @@ This Docker image adds the [diffy cli](https://github.com/DiffyWebsite/diffy-cli
 
 * To generate new images for the latest diffy cli version:
 * * Go to the [diffy cli repo](https://github.com/DiffyWebsite/diffy-cli) and find the latest version.
-* * Update the `src/Dockerfile` and set the docker image tag to the latest version number: ex `0.1.22`
+* * Update the `src/Dockerfile` and set the DIFFY_VERSION variable to the desired version.
 * * Commit and tag the main branch with `v` followed by the version number: ex `v0.1.22`
-* * Push the udpates and tag upstream.
+* * Push the updates and tag upstream.
 
 ## Security Reports
 
